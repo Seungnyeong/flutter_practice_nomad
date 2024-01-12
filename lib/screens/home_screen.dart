@@ -97,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     IconButton(
                       iconSize: 50,
-                      color: Theme.of(context).cardColor,
+                      color: Theme.of(context).cardColor.withOpacity(0.8),
                       icon: const Icon(Icons.restart_alt_outlined),
                       onPressed: onReset,
                     ),
